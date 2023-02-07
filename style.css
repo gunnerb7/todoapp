@@ -199,3 +199,14 @@ section button:hover {
   color: maroon;
   border: 2px solid maroon;
 }
+
+.green {
+  background-color: green;
+  color: #fff;
+  transform: scale(1.1);
+  transition: calc(0.5s * 1.1);
+  scale: 1.1;
+  text-shadow: 0 0 10px #fff;
+  text-transform: var(--text-transform);
+  font-weight: 30;
+}
