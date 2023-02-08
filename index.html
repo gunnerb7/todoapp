@@ -16,6 +16,13 @@
 </head>
 
 <body>
+    <section>
+        <p>Click to display the time.</p>
+
+        <button onclick="getElementById('demo').innerHTML=Date()">What is the time?</button>
+    
+        <p id="demo"></p>
+    </section>
     <!-- Markup of todo list , default todo , add todo form 👇 -->
     <div class="container">
         <ul class="todo-list js-todo-list"></ul>
@@ -30,7 +37,7 @@
             <input autofocus type="text" class="inputselect" placeholder="Eg: Workout">
         </form>
     </div>
-    <section>
+   <!-- <section>
         <p>Click to display the time.</p>
 
         <button onclick="getElementById('demo').innerHTML=Date()">What is the time?</button>
